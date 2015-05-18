@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>King-Jon // Sketches</title>
+	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>	<script type="text/javascript" src="js/jquery.lightbox.js"></script>	<script type="text/javascript" src="js/jquery.corner.js"></script>	<script type="text/javascript">
+//<![CDATA[
+
+	$(document).ready(function () {
+		$(".lightbox").lightbox({
+			fitToScreen: false
+		});
+		var thumbs = $(".lightbox img").fadeTo(0, 0);
+		var currentThumb = 0;
+		var allDone = false;
+
+
+		$(".lightbox img").hover(function () {
+			if (allDone) {
+				$(this).stop().fadeTo(400, 1.0);	
+			}
+		}, function () {
+			if (allDone) {
+				$(this).stop().fadeTo(400, 0.6);
+			}
+		});
+
+		function nextThumb()
+		{
+			if (currentThumb == thumbs.length - 1){
+				thumbs.eq(currentThumb).fadeTo(300, 1.0, function () {
+					$(".lightbox img").fadeTo(1000, 0.8, function () { allDone = true; });
+				});
+			} else {
+				thumbs.eq(currentThumb).fadeTo(300, 1.0, nextThumb);
+			}
+			currentThumb++;
+		}
+		nextThumb();
+		
+	});
+	
+//]]>
+</script></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="img/header.png" alt="King-Jon Illustration" id="header-img" />		</div>
+				<div id="navigation">
+			<ul>
+				<li id="nav-news"><a href="index.html">News</a></li>
+				<li id="nav-portfolio"><a href="works">Portfolio</a></li>
+				<li id="nav-sketches-selected"><a href="sketches">Sketches</a></li>
+				<li id="nav-about"><a href="about">About</a></li>
+				<li id="nav-links"><a href="friends">Links</a></li>
+				<li id="nav-contact"><a href="contact">Contact</a></li>
+			</ul>
+		</div>
+		<div id="content">
+		<div class="works-index">
+<a href="img/uploads/sketches18.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches18_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches15.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches15_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches14.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches14_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches12.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches12_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches11.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches11_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches10.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches10_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches9.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches9_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches6.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches6_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches5.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches5_thumb.jpg" class="circle-thumb"></a><a href="img/uploads/sketches4.jpg" class="lightbox" rel="thumbs" title="&ldquo;&rdquo; "><img src="img/uploads/sketches4_thumb.jpg" class="circle-thumb"></a></div>
+		</div>
+		<div id="footer">
+			All content &copy; 2010 Jonathan Atkins
+		</div>
+	</div>
+	</body>
+</html>

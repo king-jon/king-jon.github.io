@@ -1,0 +1,346 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>King-Jon // News</title>
+	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="../../css/styles.css" />	<link rel="stylesheet" type="text/css" href="../../css/lightbox.css" />	<script type="text/javascript" src="../../js/jquery-1.3.2.min.js"></script>	<script type="text/javascript" src="../../js/jquery.lightbox.js"></script>	<script type="text/javascript" src="../../js/jquery.corner.js"></script>	<script type="text/javascript">
+//<![CDATA[
+
+$(document).ready( function() {
+
+	var thumbs = $(".news-item").hide();
+	var currentThumb = 0;
+
+	function nextThumb()
+	{
+		thumbs.eq(currentThumb).fadeIn("slow", nextThumb);
+		currentThumb++;
+	}
+	nextThumb();
+
+});
+
+//]]>
+</script></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="../../img/header.png" alt="King-Jon Illustration" id="header-img" />		</div>
+				<div id="navigation">
+			<ul>
+				<li id="nav-news-selected"><a href="../../index.html">News</a></li>
+				<li id="nav-portfolio"><a href="../../works">Portfolio</a></li>
+				<li id="nav-sketches"><a href="../../sketches">Sketches</a></li>
+				<li id="nav-about"><a href="../../about">About</a></li>
+				<li id="nav-links"><a href="../../friends">Links</a></li>
+				<li id="nav-contact"><a href="../../contact">Contact</a></li>
+			</ul>
+		</div>
+		<div id="content">
+		
+<div class="news-index">
+	<div class="news-item">	
+		<h2>
+			France		</h2>
+		<p class="news-date">
+			7th Jun 2011		</p>
+		<p class="news-body">
+			<p>
+	Cote d&#39;azur</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/frenchy8.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/frenchy10.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/frenchy19.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/frenchy26.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/frenchy31.jpg" width="577" /></p>		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Spicy		</h2>
+		<p class="news-date">
+			31st May 2011		</p>
+		<p class="news-body">
+			<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/chilli.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Quote		</h2>
+		<p class="news-date">
+			31st May 2011		</p>
+		<p class="news-body">
+			<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/bird&#32;2.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Paintings		</h2>
+		<p class="news-date">
+			31st May 2011		</p>
+		<p class="news-body">
+			<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="823" src="../../files/painting&#32;4&#32;blogd.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="681" src="../../files/bee2web.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			NYC Stash		</h2>
+		<p class="news-date">
+			30th May 2011		</p>
+		<p class="news-body">
+			<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/stash&#32;dash-1.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: 'lucida grande', verdana, helvetica, arial, sans-serif; font-size: 13px; ">Raided the photo stash, Heres a few from my travels. more to come.</span></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc10.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc15.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc2.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc18-1.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc16.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc17.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc24.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="462" src="../../files/nyc25.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Kick Start		</h2>
+		<p class="news-date">
+			13th May 2011		</p>
+		<p class="news-body">
+			<p>
+	Heres some updates of what i&#39;ve been up to.</p>
+<p>
+	<img alt="" height="462" src="../../files/kick&#32;start&#32;web-2.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+					</h2>
+		<p class="news-date">
+			13th May 2011		</p>
+		<p class="news-body">
+			<p>
+	Butcher Diagram illustrations for Riverford Organic</p>
+<p>
+	<img alt="" height="426" src="../../files/riverford&#32;meat&#32;cuts&#32;copy.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="385" src="../../files/meat&#32;branding&#32;ideas-2.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+					</h2>
+		<p class="news-date">
+			13th May 2011		</p>
+		<p class="news-body">
+			<p>
+	Christmas E - Card for Story PR &nbsp;2010</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="380" src="../../files/story&#32;xmas&#32;card&#32;&#32;1.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+					</h2>
+		<p class="news-date">
+			13th May 2011		</p>
+		<p class="news-body">
+			<p>
+	Hand drawn text for Studio NX.</p>
+<p>
+	<img alt="" height="291" src="../../files/greenhouse&#32;2.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+					</h2>
+		<p class="news-date">
+			13th May 2011		</p>
+		<p class="news-body">
+			<p>
+	Some work for 3 Mobile, not my usual sort of work but was nice to do.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="296" src="../../files/new&#32;3mobile&#32;.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="321" src="../../files/version&#32;2&#32;future.jpg" width="577" /></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			PAINT		</h2>
+		<p class="news-date">
+			20th Nov 2009		</p>
+		<p class="news-body">
+			<p>
+	<span class="Apple-style-span" style="color: rgb(51, 51, 51); font-family: 'lucida grande',verdana,helvetica,arial,sans-serif; font-size: 14px;">I have been busy with the sable, here&#39;s a few of my new paintings. if you are interested contact me.</span></p>
+<p>
+	<span class="Apple-style-span" style="color: rgb(51, 51, 51); font-family: 'lucida grande',verdana,helvetica,arial,sans-serif; font-size: 14px;"><br />
+	</span></p>
+<p>
+	<span class="Apple-style-span" style="color: rgb(51, 51, 51); font-family: 'lucida grande',verdana,helvetica,arial,sans-serif; font-size: 14px;"><img alt="" height="462" src="../../files/ddppics-5.jpg" width="578" /></span></p>
+		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Flyers		</h2>
+		<p class="news-date">
+			20th Nov 2009		</p>
+		<p class="news-body">
+			<p>
+	Flyers and branding for fortissimo</p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="816" src="../../files/flyer&#32;number&#32;2-1.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>
+<p>
+	&nbsp;</p>
+<p>
+	<img alt="" height="816" src="../../files/fortissimo&#32;flyer-1.jpg" width="577" /></p>
+<p>
+	&nbsp;</p>		</p>
+	</div>
+	<div class="news-item">	
+		<h2>
+			Site Launch		</h2>
+		<p class="news-date">
+			29th Oct 2009		</p>
+		<p class="news-body">
+			<p>
+	King-Jon.com has launched! Thanks for visiting. Check out my works in the <a href="../../works/index.html">portfolio</a> section, or <a href="../../contact">get in touch</a>. <img alt=":D" src="../../js/ckeditor/plugins/smiley/images/teeth_smile.gif" title=":D" /></p>
+		</p>
+	</div>
+</div>
+<div class="paging">
+	<a href="page:1">&lt;&lt; previous</a> | 	<span><a href="page:1">1</a></span> | <span class="current">2</span>	<div class="disabled">next &gt;&gt;</div></div>
+		</div>
+		<div id="footer">
+			All content &copy; 2010 Jonathan Atkins
+		</div>
+	</div>
+	</body>
+</html>

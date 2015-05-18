@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>King-Jon // Friends</title>
+	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>	<script type="text/javascript" src="js/jquery.lightbox.js"></script>	<script type="text/javascript" src="js/jquery.corner.js"></script>	<script type="text/javascript">
+//<![CDATA[
+
+var rad = 10;
+$(document).ready( function() {
+	/*
+	$(".friend, .friend-alt").corner({
+	tl: { radius: rad },
+	tr: { radius: rad },
+	bl: { radius: rad },
+	br: { radius: rad }
+	}); */
+	$(".friend, .friend-alt").corner();
+
+	var thumbs = $(".friend, .friend-alt").hide();
+	var currentThumb = 0;
+
+	function nextThumb()
+	{
+		thumbs.eq(currentThumb).fadeIn("slow", nextThumb);
+		currentThumb++;
+	}
+	nextThumb();
+
+});
+
+//]]>
+</script></head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="img/header.png" alt="King-Jon Illustration" id="header-img" />		</div>
+				<div id="navigation">
+			<ul>
+				<li id="nav-news"><a href="index.html">News</a></li>
+				<li id="nav-portfolio"><a href="works">Portfolio</a></li>
+				<li id="nav-sketches"><a href="sketches">Sketches</a></li>
+				<li id="nav-about"><a href="about">About</a></li>
+				<li id="nav-links-selected"><a href="friends">Links</a></li>
+				<li id="nav-contact"><a href="contact">Contact</a></li>
+			</ul>
+		</div>
+		<div id="content">
+		<div class="friends index">
+	<div class="friend-alt">
+		<h2><a href="http://www.vincentkilbride.com" target="_blank">Vincent Kilbride</a></h2>
+		<h3><a href="http://www.vincentkilbride.com" target="_blank">http://www.vincentkilbride.com</a></h3>
+		<p>A fellow Illustrator</p>
+	</div>
+	<div class="friend">
+		<h2><a href="http://www.actionshrimp.com" target="_blank">Dave Aitken</a></h2>
+		<h3><a href="http://www.actionshrimp.com" target="_blank">http://www.actionshrimp.com</a></h3>
+		<p>Web designer extraordinaire</p>
+	</div>
+	<div class="friend-alt">
+		<h2><a href="http://www.alexgodwin.co.uk" target="_blank">Billy</a></h2>
+		<h3><a href="http://www.alexgodwin.co.uk" target="_blank">http://www.alexgodwin.co.uk</a></h3>
+		<p>A fellow Illustrator</p>
+	</div>
+	<div class="friend">
+		<h2><a href="http://www.rebeccajanecallaby.com/" target="_blank">Rebecca Callaby</a></h2>
+		<h3><a href="http://www.rebeccajanecallaby.com/" target="_blank">http://www.rebeccajanecallaby.com/</a></h3>
+		<p>Real nice Fashion Photography</p>
+	</div>
+	<div class="friend-alt">
+		<h2><a href="http://www.adambletchillustration.blogspot.com/" target="_blank">Adam Bletchley</a></h2>
+		<h3><a href="http://www.adambletchillustration.blogspot.com/" target="_blank">http://www.adambletchillustration.blogspot.com/</a></h3>
+		<p>Illustrator</p>
+	</div>
+</div>
+		</div>
+		<div id="footer">
+			All content &copy; 2010 Jonathan Atkins
+		</div>
+	</div>
+	</body>
+</html>
