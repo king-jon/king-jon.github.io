@@ -29,11 +29,11 @@
 		function nextThumb()
 		{
 			if (currentThumb == thumbs.length - 1){
-				thumbs.eq(currentThumb).fadeTo(300, 1.0, function () {
+				thumbs.eq(currentThumb).fadeTo(50, 1.0, function () {
 					$(".lightbox img").fadeTo(1000, 0.8, function () { allDone = true; });
 				});
 			} else {
-				thumbs.eq(currentThumb).fadeTo(300, 1.0, nextThumb);
+				thumbs.eq(currentThumb).fadeTo(50, 1.0, nextThumb);
 			}
 			currentThumb++;
 		}
