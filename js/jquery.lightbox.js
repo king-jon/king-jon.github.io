@@ -410,8 +410,8 @@
     };
 
 	$.fn.lightbox.defaults = {
-		fileLoadingImage : 'img/lightbox/loading.gif',
-		fileBottomNavCloseImage : 'img/lightbox/closelabel.gif',
+		fileLoadingImage : '/img/lightbox/loading.gif',
+		fileBottomNavCloseImage : '/img/lightbox/closelabel.gif',
 		overlayOpacity : 0.8,
 		borderSize : 10,
 		imageArray : new Array,
